@@ -1,0 +1,71 @@
+body{
+ background:linear-gradient(skyblue,lightgreen)
+}
+h1{
+    text-align: center;
+    padding: 25px;
+    border-left-style:double;
+    border-right-style: double;
+    text-shadow: 5px 5px 5px green;
+    border-top: double;
+    border-bottom: double;
+}
+.navbar{
+    background-color: silver;
+    padding:0%;
+    margin-top: 0%;
+    margin-bottom: 0%;
+}
+.navbar ul{
+    text-align: center;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0%;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: rgb(27, 26, 26);
+}
+.navbar li{
+    float:left
+}
+#p2{
+ color: red;
+}
+#p3{
+    color:red;
+}
+#p4{
+    color:red;
+}
+footer{
+    background-color: #dad72e;
+    margin: 0%;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background: rgb(216, 156, 45);
+    font-size: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    align-items: center;
+
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+}
+@keyframes mySlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
